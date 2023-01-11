@@ -4,9 +4,8 @@
     text-decoration: none;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Ropa Sans';
-    font-weight: normal;    
-    list-style: none;
+    font-family: 'Ropa Sans','sans-serif';
+    font-style: normal;   
 }
 header{
     background-color: #ffffff;
@@ -20,7 +19,7 @@ header{
 }
 .logo{  
     display: flex;
-    width: 10vw;
+    width: 11vw;
     align-items: center;
     color: #777777;
 }
@@ -39,10 +38,8 @@ main{
 .banner{
     display: flex ;
     align-items: center;
-    justify-content: center;
     margin-top: 2vw;
     margin-bottom: 2vw;
-    background-color: aqua;
 }
 .img{
     width:1250px
@@ -50,24 +47,27 @@ main{
     height: 300px;
 
 }
+.setas{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+}
 .setaDir{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: silver;
+    background-color: rgba(141, 141, 141, 0.62);;
     color: white;
     border-style: none;
-    position: absolute;
 }
 .setaEsq{
     width: 40px;
     height: 40px;
     border-radius: 50%; 
     color: white;
-    background-color: silver;
+    background-color: rgba(141, 141, 141, 0.62);;
     border-style: none;
-    position: absolut;
-   
 }
 
 .anuncios{
@@ -79,9 +79,15 @@ main{
  height: 200px;
  width: 350px;
 }
-
+.prebo{
+    display: flex;
+    justify-content: space-between;
+}
+.prebo2{
+    display: flex;
+    justify-content: space-between;
+}
 .sobre{
-    
     background-color: #EEEEEE;
     width: 48.6vh;
 }
@@ -93,7 +99,7 @@ color: white;
 background-color: #51D275;
 font-size: 20px;
 border-style: none;
-position: absolute;
+
 }
 .botao2{
     width: 70px;
@@ -103,7 +109,6 @@ position: absolute;
     background-color: #DC9730;
     font-size: 20px;
     border-style: none;
-    position: absolute;
     }
 .sobre2{
     
@@ -112,8 +117,10 @@ position: absolute;
 }
 .estilos{
     display: flex;
+
     flex-direction: column;
     align-items: center;
+    
 }
 .estilos img{
     width: 1225px;
@@ -137,9 +144,15 @@ position: absolute;
 .submenu2{
     position: absolute;
 }
-.estilo3{
+.estilo3 {
     display: flex;
+    justify-content: center;
     align-items: center;
+    color: white;
+}
+.submenu3{
+    position: absolute;
+
 }
 
 footer{
