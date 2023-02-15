@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family= Ropa+Sans & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 *{
     padding: 0;
     text-decoration: none;
@@ -7,167 +7,217 @@
     font-family: 'Ropa Sans','sans-serif';
     font-style: normal;   
 }
-header{
-    background-color: #ffffff;
-    box-shadow :  0px  2px  20px rgba( 0 ,0 ,0, 0.25 );
-    padding: 1vw;
-    padding-left: 5vh;
-    padding-right: 5vh;
+/*Font-Size Menu*/
+#menuContainer h1{
+    font-size: 30px;
+}
+#menuContainer p{
+    font-size: 10px;
+}
+/*Font-Size Menu*/
+
+/*setas Banner*/
+.setas{
+    background-color: rgba(192, 192, 192, 0.315);
+    height: 50px ;
+    width: 50px;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 50px;
+    color: white;
+}
+
+/*setas Banner*/
+#menuContainer{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em ;
+    margin-bottom: 1em;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25 );
+}   
+
+#logoContainer{
+    display: flex;
+    align-items: center;
+    color: #888888;
+    ;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#setImagem{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
     align-items: center;
     
 }
-.logo{  
-    display: flex;
-    width: 11vw;
-    align-items: center;
-    color: #777777;
-}
-.logo2{
-    color: silver;
-}
-.menu{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-main{
-    margin-left: 10vw;
-    margin-right: 10vw ;
-}
-.banner{
-    display: flex ;
-    align-items: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
-.img{
-    width:1250px
-    ;
-    height: 300px;
-
-}
-.setas{
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-
-}
-.setaDir{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(141, 141, 141, 0.62);;
-    color: white;
-    border-style: none;
-}
-.setaEsq{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; 
-    color: white;
-    background-color: rgba(141, 141, 141, 0.62);;
-    border-style: none;
+#setImagem img{
+    width: 100%;
+    position: relative;
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em ;
+   margin-bottom: 1em;
 }
 
-.anuncios{
-   display: flex;
-   justify-content: space-between;
+#navegaçao{
+    display: inline-block;
+    position: absolute; 
 }
 
-.anuncios img{
- height: 200px;
- width: 350px;
-}
-.prebo{
+#propagandas{
     display: flex;
     justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em ;
+    padding-top: 1em;
+    width: 100% ;
+    padding-bottom: 3em;
 }
-.prebo2{
-    display: flex;
-    justify-content: space-between;
+
+#exemplo1 img{
+    width: 100%
 }
-.sobre{
+
+#exemplo1{
+    width: 45%;
     background-color: #EEEEEE;
-    width: 48.6vh;
 }
-.botao{
-width: 70px;
-height: 25px;
-border-radius: 29%;
-color: white;
-background-color: #51D275;
-font-size: 20px;
-border-style: none;
+#exemplo1 .preço1{
+    color: #888888;
+}
+.info1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25em;
+    font-size: 25px;
+}
+.botao1{
+    width: 3em;
+    height: 30px;
+    border-radius: 10.5px;
+    font-size: 25px;
+    border-style: none;
+    background-color:#51D275;
+    color: #ffffff;
+}
 
+.lorem1{
+    padding-inline:0.7em;
+    padding-bottom: 1em;
+}
+#exemplo2 img{
+    width: 100%
+    
+}
+
+#exemplo2{
+    width: 45%;
+    background-color: #EEEEEE;
+}
+
+.info2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25em;
+    font-size: 25px; 
 }
 .botao2{
-    width: 70px;
-    height: 25px;
-    border-radius: 29%;
-    color: white;
-    background-color: #DC9730;
-    font-size: 20px;
+    width: 3em;
+    height: 30px;
+    border-radius: 10.5px;
+    font-size: 25px;
     border-style: none;
-    }
-.sobre2{
+    background-color:#DC9730;
+    color: #ffffff;
     
-    background-color: #EEEEEE ;
-    width: 48.6vh;
 }
-.estilos{
+.lorem2{
+    padding-inline:0.7em;
+    padding-bottom: 1em;
+}
+#exemplo2 .preço2{
+    color: #888888;
+}
+#categorias{
+    padding-inline: 3em;
+    text-align: center;
+}
+.titulo{
+    padding-bottom: 0.5em ;
+}
+#categorias img{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    background: #C4C4C480;
+    opacity: 50%;
+}
+#categorias .titulo{  
+    color: #888888;
+}
+.industrial{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.industrial a{
+    position: absolute;
+    color: #ffffff;
+}
 
-    flex-direction: column;
-    align-items: center;
-    
-}
-.estilos img{
-    width: 1225px;
-}
-.estilo{
+.modern{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
-.submenu{
+.modern a{
     position: absolute;
-    
+    color: #ffffff;
 }
-.estilo2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.submenu2{
-    position: absolute;
-}
-.estilo3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.submenu3{
-    position: absolute;
 
+.classic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classic a{
+    position: absolute;
+    color: #ffffff;
 }
 
 footer{
     background-color: #333333;
-    color: #ffffff; 
-    
     display: flex;
     justify-content: space-between;
-    height: 16vw ; 
-    align-items: center;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    color: #ffffff;
+    padding: 3em;
+    line-height: 20px;
+    margin-top: 2em;
 }
 
+.imgs{
+    display: flex;
+}
 
-
+.imgs a{
+    padding: 0.5em;
+}
 
 

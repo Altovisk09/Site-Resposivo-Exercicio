@@ -1,95 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lovt</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="#">
+    <link rel="icon" href="/jpg/icon.png">
 </head>
+
 <body>
     <header>
-    <div class="logo">
-        <h1>LOVT</h1>
-        <p class="logo2">You Love, your loft!<p>
-    </div>
-        <div class="menu" >
-            <a href="#"><img src ="/jpg/Vector.png" alt="Menu"></a>
-        </div>
-        </header>
-    <main>
-      <section class="banner">
-        <img class="img" src="/png/banner.png" alt="Teste">
-        <div class="setas">
-        <button class="setaEsq"><</button>
-        <button class="setaDir">></button>
-    </div>
-    </section>
-      <section class="anuncios">
-        <div class="anuncio">
-            <img class="img1" src="/jpg/home1.jpg" alt="">
-            <article class="sobre">
-                <div class="prebo">
-        <h2 class="preço">$1,200</h2>
-        <button class="botao">New</button>
-    </div>
-        <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatum libero fugit 
-        quibusdam incidunt illum doloremque neque dolorum dolore provident eius impedit dolorem 
-        fuga! Ea dolorem nulla qui non ut quidem nobis pariatur ad assumenda ullam dolores facere 
-        inventore alias nesciunt hic ex amet rem debitis, dolore deserunt aliquam dicta, sed magni. 
-        Consequuntur provident iste at fugiat, aperiam assumenda necessitatibus?</p>
-        </div>      
-    </article>
-            <div class="anuncio2">
-                <img class="img2" src="/jpg/home2.jpg" alt="">
-                    <article class="sobre2">
-            <div class="prebo2">
-                <h2 class="preço2">$2,000</h2>
-                <button class="botao2">Sale</button>
-            </div>
-                <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatum libero fugit 
-                quibusdam incidunt illum doloremque neque dolorum dolore provident eius impedit dolorem 
-                fuga! Ea dolorem nulla qui non ut quidem nobis pariatur ad assumenda ullam dolores facere 
-                inventore alias nesciunt hic ex amet rem debitis, dolore deserunt aliquam dicta, sed magni. 
-                Consequuntur provident iste at fugiat, aperiam assumenda necessitatibus?</p>
-                    </article>
+        <nav>
+            <div id="menuContainer">
+                <div id="logoContainer">
+                    <h1>LOVT</h1>
+                    <p>You Love, <br> your loft!</p>
                 </div>
-            </section>
-            <section class="estilos">
-                <h2>Your Style</h2>
-                <ul>
-                    <div class="estilo">
-                    <li><a href="#"><img src="/png/industrial.png" alt=""></a></li>
-                    <h2 class="submenu">Industrial</h2>
+                <div id="menuSelect">
+                    <img src="/jpg/Vector.png" alt="Menu">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <div id="setImagem">
+                <img id="bannerImg" src="/png/banner.png" alt="Banner">
+                <nav id="navegaçao">
+                    <a href="#"><button id="seta1" class="setas"><</button></a>
+                    <a href="#"><button id="seta2" class="setas">></button></a>
+                </nav>
+            </div>
+        </section>
+        <section id="propagandas">        
+                
+            <div id="exemplo1">
+                <img class ="imgexmplo1"  src="/png/home1.png" alt="Exterior da residencia">
+                <div class="text1">
+                <div class="info1">  
+                    <p class="preço1">$1200</p>
+                    <button class="botao1">New</button>
+                </div>
+                <p class="lorem1">Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, 
+                    deitado sem dormir, sentado sem cochilar e fazendo pose. Nullam volutpat 
+                    risus nec leo commodo, ut interdum diam laoreet.
+                    </p>
                     </div>
-                    <div class="estilo2">
-                    <li><a href="#"><img src="/png/classic.png" alt=""></a></li>
-                    <h2 class="submenu2">Classic</h2>
+                </div>
+
+                <div id="exemplo2">
+                    <img class ="imgexmplo2" src="/png/home2.png" alt="Exterior">
+                    <div class="text2">
+                    <div class="info2">
+                        <p class="preço2">$2000</p>
+                        <button class="botao2">Sale</button>
                     </div>
-                    <div class="estilo3">
-                    <li><a href="#"><img src="/png/modern.png" alt=""></a></li>
-                    <h2 class="submenu3">Modern</h2>
-                    </div>
-                </ul>
-            </section>         
+                    <p class="lorem2">Mussum Ipsum, cacilds vidis litro abertis. Em 
+                        pé sem cair, deitado sem dormir, sentado sem cochilar e 
+                        fazendo pose. Nullam volutpat risus nec leo commodo, ut 
+                        interdum diam laoreet.
+                </div>      
+        </section>
+
+        <section id="categorias">
+        <div class="categorias">   
+            <h1 class="titulo">Your Style</h1>
+            <div class="industrial">
+                <img src="/png/industrial.png" alt="Industrial">
+                <a href="#"><h1>Industrial</h1></a>
+            </div>  
+            <div class="modern">
+                <img src="/png/modern.png" alt="Modern">
+                <a href="#"><h1>Modern</h1></a>
+            </div>
+            <div class="classic">
+            <img src="/png/classic.png" alt="Classic">
+            <a href="#"><h1>Classic</h1></a>
+        </div>
+        </div>
+        </section>
     </main>
     <footer>
-        <a class="mapa" href="#"><img src="/png/map.png" alt="Localização"></a>
-       <div class="contato">
-        <p>LOVT - You love, your loft!</p>
-        <p>Broad St,</p>
-        <p>Newark, NJ 07102 - USA</p>
-        <p>+1 (973) 854-555-548</p>     
-        <p>contact@lovtrealstate.com</p>
-        
-        <p>OUR SOCIAL MEDIAS:</p>
-            <div class="icones">
+        <a href="#"><img src="/png/map.png" alt="Mapa"></a>
+        <div class="informaçoes">
+        <div>
+            <p>LOVT - You love, your loft!</p>
+            <p>Broad St, <br> Newark, NJ 07102 - USA</p>
+            <p>+1 (973) 854-555-548</p>
+            <p>contact@lovtrealstate.com</p>
+        </div>
+        <br>
+        <div>
+            <p>OUR SOCIAL MEDIAS:</p>
+            <div class="imgs">
             <a href="#"><img src="/png/icon-instagram.png" alt="Instagram"></a>
             <a href="#"><img src="/png/icon-facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="/png/icon-whatsapp.png" alt="Whatsapp"></a>
-            </div>
+            <a href="#"><img src="/png/icon-whatsapp.png" alt="WhatsApp"></a>
         </div>
-    </footer>   
+        </div>
+    </div>
+    </footer>
 </body>
+
 </html>
